@@ -1,0 +1,8 @@
+{
+  "name": "SMP Taman Siswa",
+  "description": "Platform kemitraan akademik antara SMP Taman Siswa dan orang tua siswa untuk memantau nilai, presensi, konseling, agenda, dan jadwal konsultasi guru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
