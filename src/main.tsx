@@ -1,4 +1,4 @@
-
+// Trigger Cloudflare deployment
 import { createRoot } from 'react-dom/client';
 import AuthGate from './AuthGate';
 import './index.css';
