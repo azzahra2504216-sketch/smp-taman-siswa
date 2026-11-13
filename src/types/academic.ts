@@ -1,5 +1,4 @@
-export type UserRole = 'parent' | 'educator';
-
+export type UserRole = 'admin' | 'parent' | 'educator';
 export type ScreenKey = 'overview' | 'academics' | 'consultation' | 'messages';
 
 export type AttendanceStatus = 'Hadir' | 'Terlambat' | 'Izin' | 'Sakit';
