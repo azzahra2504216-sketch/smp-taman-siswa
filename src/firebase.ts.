@@ -1,0 +1,18 @@
+
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDY7tgk-GyiHwxMrIfwP30pml_AHVvo88k",
+  authDomain: "smp-taman-siswa.firebaseapp.com",
+  projectId: "smp-taman-siswa",
+  storageBucket: "smp-taman-siswa.firebasestorage.app",
+  messagingSenderId: "417889756841",
+  appId: "1:417889756841:web:73a5b4b682a8ec8eb22bb8",
+};
+
+const app = initializeApp(firebaseConfig);
+
+export const auth = getAuth(app);
+export const db = getFirestore(app);
